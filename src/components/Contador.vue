@@ -17,7 +17,7 @@ function reset() {
 
 <template>
     <h1>Contador em: {{ contador }}</h1>
-    <hr />
+    <br />
     <Button @click="incrementar">Incrementar</Button>
     <Button @click="decrementar">Decrementar</Button>
     <Button @click="reset" :disabled="contador === 0">Resetar</Button>
